@@ -1,5 +1,11 @@
 #!/bin/bash
-arr=("1 2 3 4 5 6 7")
-for (( i=1; i<=7,i++ ))
-do
-   fact
+#echo "enter value1"
+#read v1
+#echo "enter value2"
+#read v2
+if [ $v1 -gt $v2 ]
+then
+echo "$v1 is greatest"
+else
+echo "$v2 is greatest"
+fi
